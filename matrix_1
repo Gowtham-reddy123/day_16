@@ -1,0 +1,9 @@
+for x in range(7):
+	for y in range(7):
+		if x==6 or y==0 and x>2 or x==3 or x+y==3 or x-y==-3 :
+			print("@",end="\t")
+		elif y==6 and x>2 or y==2 and x>2 or y==4 and x>2:
+			print("@",end="\t")
+		else:
+			print(" ",end="\t")
+	print("\n")
